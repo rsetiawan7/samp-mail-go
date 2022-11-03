@@ -53,7 +53,7 @@ in this section. If your library is passive and has no API, simply omit this
 section.
 -->
 ```pawn
-# Send e-mail
+// Send e-mail
 SendEmail("Your Server", "your-email@example.com", "Hello", "You should receive this e-mail")
 ```
 

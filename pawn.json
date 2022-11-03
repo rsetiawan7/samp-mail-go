@@ -1,0 +1,13 @@
+{
+	"user": "rsetiawan7",
+	"repo": "samp-mail-go",
+	"tag": "0.0.1",
+	"entry": "test.pwn",
+	"output": "gamemodes/test.amx",
+	"dependencies": [
+		"pawn-lang/samp-stdlib"
+	],
+	"runtime": {
+		"mode": "y_testing"
+	}
+}

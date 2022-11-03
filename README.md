@@ -52,24 +52,30 @@ the source code, direct users there. If not, list your API and describe it well
 in this section. If your library is passive and has no API, simply omit this
 section.
 -->
+#### --- Make sure you're using Go 1.19
+
+Build your mail server
+
+```
+go build
+```
+
+Run it
+
+```
+./samp-mail-go
+```
+
+In your SA-MP code, use it
+
 ```pawn
+#include <samp-mail-go>
+
 // Send e-mail
 SendEmail("Your Server", "your-email@example.com", "Hello", "You should receive this e-mail")
 ```
 
-## Testing
-
-<!--
-Depending on whether your package is tested via in-game "demo tests" or
-y_testing unit-tests, you should indicate to readers what to expect below here.
--->
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
-
 ## To-do
 
+- [ ] CI / CD for Releases build (Windows & Linux)
 - [ ] Unit test

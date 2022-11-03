@@ -54,6 +54,11 @@ section.
 -->
 #### --- Make sure you're using Go 1.19
 
+Install dependencies
+```
+go mod tidy
+```
+
 Build your mail server
 
 ```
